@@ -1,0 +1,14 @@
+[workspace]
+authors = ["Ben Moss <bmoss40@bloomberg.net>"]
+channels = ["conda-forge"]
+name = "repro"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.13.5,<3.14"
+
+[pypi-dependencies]
+cowpy = ">=1.1.5, <2"
